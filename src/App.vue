@@ -1,7 +1,6 @@
 <template>
 	<div id="app">
 		<img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
-		<HelloWorld msg="Welcome to Your Vue.js App" />
 		<p>yeeeeeeeeeeeee:{{ contador }}</p>
 		<button @click="sumarMasUno">Más uno</button>
 	</div>
@@ -12,9 +11,6 @@
 
 export default {
   name: "App",
-  components: {
-    HelloWorld
-  },
   data() {
     return {
       contador: 0
